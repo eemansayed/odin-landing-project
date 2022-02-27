@@ -148,6 +148,7 @@ body {
   margin-left: 200px;
   margin-top: 100px;
   border-radius: 4px;
+  padding: 50px 20px;
 }
 
 .action-section .left {
@@ -159,4 +160,17 @@ body {
 .action-section .left h1 {
   margin: 0;
   padding: 0;
+  color: #fff;
+}
+
+.action-section .left p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.action-section .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
