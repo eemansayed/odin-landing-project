@@ -8,10 +8,6 @@ body {
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
-  /*justify-content: center;*/
-  /*height: 100vh;*/
-  /*overflow: hidden;*/
   margin: 0;
 }
 
@@ -105,4 +101,40 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 6px;
+}
+
+.main .box p {
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 100px 250px;
+}
+
+.quote-section .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-section .top .quote {
+  font-size: 36px;
+  font: italic;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.quote-section .bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.quote-section .bottom h3 {
+  font-size: 20px;
+  color: #1f2937;
 }
