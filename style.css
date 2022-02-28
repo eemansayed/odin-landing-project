@@ -11,6 +11,10 @@ body {
   margin: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 .header {
   display: flex;
   width: 100%;
@@ -184,4 +188,16 @@ body {
   outline: none;
   padding: 5px 25px;
   background-color: transparent;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 50px 0;
+  gap: 10px;
+  color: #fff;
+  font-size: 18px;
+  background-color: #1f2937;
 }
